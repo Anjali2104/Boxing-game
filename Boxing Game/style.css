@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body {
+  background:'blue';
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'VT323', monospace;
+  background-color:  #d5f4e6;
+}
+#belt-png{
+  height: 150px;
+  margin-left: 50px;
+  
+}
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#p1 {
+  width:100px;
+  height:100px;
+}
+
+.p1Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+/*   background: red; */
+}
+
+#p1Name {
+  font-size: 30px;
+}
+
+#p1Health {
+  font-size: 50px;
+}
+
+#p2{
+  width:100px;
+  height:100px;
+  transform: scaleX(-1);
+}
+
+
+.p2Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+/*   background: red; */
+}
+
+#p2Name {
+  font-size: 30px;
+}
+
+#p2Health {
+  font-size: 50px;
+}
+
+.playerControls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ 
+}
+
+.AttackDiv{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+/*   background: blue; */
+}
+
+.HealDiv {
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+/*   background: yellow; */
+}
+
+#attack {
+  /* height: 30px;
+  width: 60px;
+  border-radius: 50px;
+  border:none;
+  background: red;
+  outline: none; */
+  background: red;
+  border-radius: 8px;
+ border:1px solid white;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 40px;
+
+}
+h3{
+  font-size:large;
+}
+#heal {
+  /* height: 30px;
+  width: 60px;
+  border-radius: 50px;
+  border:none;
+  background: green;
+  outline: none; */
+  background: green;
+  border-radius: 8px;
+ border:1px solid white;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 40px;
+
+}
+
+#play {
+  height: 50px;
+  width: 120px;
+  border-radius: 20px;
+/*   border:none; */
+  background: blue;
+  outline: none;
+  color: white;
+}
+
+#result {
+  font-size: 50px;
+  color : #405d27;
+}
+
+#reset {
+  margin-top: 20px;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+/*   border:none; */
+  background: #405d27;
+  outline: none;
+  color: white;
+}
+
+.resultContainer {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height:150px;
+  width: 300px;
+}
